@@ -3,7 +3,7 @@ $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'info@sd-comunicaciones.com';
+$mail_to = 'info@sdcomunicaciones.com';
 $subject = 'Mensaje de formulario '.$field_name;
 
 $body_message = 'Desde: '.$field_name."\n";
@@ -24,7 +24,7 @@ if ($mail_status) { ?>
 }
 else { ?>
 	<script language="javascript" type="text/javascript">
-		alert('Error al enviar. Por Favor, envie un email a info@sd-comunicaciones.com');
+		alert('Error al enviar. Por Favor, envie un email a info@sdcomunicaciones.com');
 		window.location = 'index.html';
 	</script>
 <?php
